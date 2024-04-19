@@ -1,0 +1,49 @@
+.boton{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem 1.2rem;
+    border: 1px solid black;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.boton:hover{
+    border: 4px solid rgb(56, 56, 56);
+    transition: .3s ease-out;
+}
+
+.centrar{
+    margin: 0 auto!important;
+}
+
+.sin-borde{
+    border: none!important;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.medida-1{
+    width: 16.6%;
+}
+
+.medida-2{
+    width: 25%;
+}
+
+.fondo-1{
+    background-color: rgb(56, 56, 56);
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+}
